@@ -14,6 +14,16 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>Tests Mac.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>15</integer>
+		</dict>
+		<key>Tests iOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>14</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
