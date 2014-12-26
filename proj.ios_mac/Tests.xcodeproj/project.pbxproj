@@ -92,6 +92,10 @@
 		9B798BFB1A4C013B002B260C /* iphone in Resources */ = {isa = PBXBuildFile; fileRef = 9B798BF31A4C013B002B260C /* iphone */; };
 		9B798BFE1A4C128E002B260C /* DemoFishScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B798BFC1A4C128E002B260C /* DemoFishScene.cpp */; };
 		9B798BFF1A4C128E002B260C /* DemoFishScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B798BFC1A4C128E002B260C /* DemoFishScene.cpp */; };
+		9B798C0B1A4D5A73002B260C /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 9B798C0A1A4D5A73002B260C /* Images */; };
+		9B798C0C1A4D5A73002B260C /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 9B798C0A1A4D5A73002B260C /* Images */; };
+		9B798C101A4D6369002B260C /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 9B798C0F1A4D6369002B260C /* fonts */; };
+		9B798C111A4D6369002B260C /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 9B798C0F1A4D6369002B260C /* fonts */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
@@ -317,6 +321,8 @@
 		9B798BF31A4C013B002B260C /* iphone */ = {isa = PBXFileReference; lastKnownFileType = folder; path = iphone; sourceTree = "<group>"; };
 		9B798BFC1A4C128E002B260C /* DemoFishScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DemoFishScene.cpp; sourceTree = "<group>"; };
 		9B798BFD1A4C128E002B260C /* DemoFishScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoFishScene.h; sourceTree = "<group>"; };
+		9B798C0A1A4D5A73002B260C /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
+		9B798C0F1A4D6369002B260C /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -524,6 +530,8 @@
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				9B798C0F1A4D6369002B260C /* fonts */,
+				9B798C0A1A4D5A73002B260C /* Images */,
 				9B798BF01A4C013B002B260C /* 3D */,
 				9B798BF11A4C013B002B260C /* ipad */,
 				9B798BF21A4C013B002B260C /* ipadhd */,
@@ -720,6 +728,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B798C0B1A4D5A73002B260C /* Images in Resources */,
+				9B798C101A4D6369002B260C /* fonts in Resources */,
 				5087E78117EB970100C73F5D /* Icon-120.png in Resources */,
 				9B798BFA1A4C013B002B260C /* iphone in Resources */,
 				9B798BF81A4C013B002B260C /* ipadhd in Resources */,
@@ -751,6 +761,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B798C111A4D6369002B260C /* fonts in Resources */,
+				9B798C0C1A4D5A73002B260C /* Images in Resources */,
 				9B798BF91A4C013B002B260C /* ipadhd in Resources */,
 				5087E75317EB910900C73F5D /* CloseNormal.png in Resources */,
 				9B798BC61A4BE404002B260C /* Shaders in Resources */,

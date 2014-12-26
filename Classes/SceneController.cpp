@@ -30,6 +30,8 @@
 #include "cocostudio/CocoStudio.h"
 #include "testBasic.h"
 
+#include "DemoFishScene.h"
+
 typedef struct _Controller{
     const char *test_name;
     std::function<TestScene*()> callback;
@@ -41,7 +43,7 @@ Controller g_aTestNames[] = {
     // TESTS MUST BE ORDERED ALPHABETICALLY
     //     violators will be prosecuted
     //
-//    { "ActionManager", [](){return new ActionManagerTestScene(); } },
+    { "DemoFishScene", [](){return new DemoFishScene(); } },
 };
 
 
@@ -56,7 +58,7 @@ SceneController::SceneController()
 {
     // add close menu
     auto closeItem = MenuItemImage::create(s_pathClose, s_pathClose, CC_CALLBACK_1(SceneController::closeCallback, this) );
-    auto menu =Menu::create(closeItem, nullptr);
+    auto menu = Menu::create(closeItem, nullptr);
     
     menu->setPosition( Vec2::ZERO );
     closeItem->setPosition(Vec2( VisibleRect::right().x - 30, VisibleRect::top().y - 30));
@@ -132,6 +134,7 @@ void SceneController::closeCallback(Ref * sender)
 
 bool SceneController::onTouchBegan(Touch* touch, Event  *event)
 {
+    log("onTouchBegan");
     _beginPos = touch->getLocation();
     return true;
 }
