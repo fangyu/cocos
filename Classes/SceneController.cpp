@@ -48,7 +48,7 @@ Controller g_aTestNames[] = {
 
 
 static int g_testCount = sizeof(g_aTestNames) / sizeof(g_aTestNames[0]);
-static Controller *currentController = nullptr;
+//static Controller *currentController = nullptr;
 #define LINE_SPACE          40
 
 static Vec2 s_tCurPos = Vec2::ZERO;

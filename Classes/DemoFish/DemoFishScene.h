@@ -49,13 +49,39 @@ public:
     
 protected:
     //鱼精灵
-    cocos2d::Sprite3D*_sprite;
+    cocos2d::Sprite3D *_sprite;
     //向前游的动作
-    cocos2d::Animate3D*_swim;
+    cocos2d::Animate3D *_swim;
     //受伤的动作
-    cocos2d::Animate3D*_hurt;
+    cocos2d::Animate3D *_hurt;
     
 };
+
+class DemoFish2 : public DemoFishTest
+{
+public:
+    DemoFish2();
+    ~DemoFish2();
+    
+    virtual std::string subtitle() const override;
+    virtual void onEnter() override;
+    void removeThis();
+    
+    //初始化当前层
+    bool initDemoFish2();
+    virtual void draw(Renderer* renderer, const Mat4 &transform, uint32_t flags);
+    
+protected:
+    //鱼精灵
+    cocos2d::Sprite3D *_sprite;
+    //向前游的动作
+    cocos2d::Animate3D *_swim;
+    //受伤的动作
+    cocos2d::Animate3D *_hurt;
+    
+    Vec2 _lightani;
+};
+
 
 class DemoFishScene
 : public TestScene
