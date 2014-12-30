@@ -311,7 +311,7 @@ void DemoFish2::draw(Renderer* renderer, const Mat4 &transform, uint32_t flags)
 
 //------------------------------------------------------------------
 //
-// ActionManagerTestScene
+// DemoFishScene
 //
 //------------------------------------------------------------------
 

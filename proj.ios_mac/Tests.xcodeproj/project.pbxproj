@@ -62,6 +62,10 @@
 		50EF629917ECD46A001EB2F8 /* Icon-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 50EF629517ECD46A001EB2F8 /* Icon-100.png */; };
 		50EF62A217ECD613001EB2F8 /* Icon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = 50EF62A017ECD613001EB2F8 /* Icon-29.png */; };
 		50EF62A317ECD613001EB2F8 /* Icon-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 50EF62A117ECD613001EB2F8 /* Icon-50.png */; };
+		9B682E561A5291F4006CAE6A /* GameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B682E541A5291F4006CAE6A /* GameScene.cpp */; };
+		9B682E571A5291F4006CAE6A /* GameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B682E541A5291F4006CAE6A /* GameScene.cpp */; };
+		9B682E5D1A529D41006CAE6A /* iphone6.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B682E5C1A529D41006CAE6A /* iphone6.png */; };
+		9B682E5E1A529D41006CAE6A /* iphone6.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B682E5C1A529D41006CAE6A /* iphone6.png */; };
 		9B798BC51A4BE404002B260C /* Shaders in Resources */ = {isa = PBXBuildFile; fileRef = 9B798BC41A4BE404002B260C /* Shaders */; };
 		9B798BC61A4BE404002B260C /* Shaders in Resources */ = {isa = PBXBuildFile; fileRef = 9B798BC41A4BE404002B260C /* Shaders */; };
 		9B798BC91A4BE40C002B260C /* WaterEffectSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B798BC71A4BE40C002B260C /* WaterEffectSprite.cpp */; };
@@ -294,6 +298,9 @@
 		50EF629517ECD46A001EB2F8 /* Icon-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-100.png"; sourceTree = "<group>"; };
 		50EF62A017ECD613001EB2F8 /* Icon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-29.png"; sourceTree = "<group>"; };
 		50EF62A117ECD613001EB2F8 /* Icon-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-50.png"; sourceTree = "<group>"; };
+		9B682E541A5291F4006CAE6A /* GameScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameScene.cpp; path = ../Classes/GameScene.cpp; sourceTree = "<group>"; };
+		9B682E551A5291F4006CAE6A /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameScene.h; path = ../Classes/GameScene.h; sourceTree = "<group>"; };
+		9B682E5C1A529D41006CAE6A /* iphone6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone6.png; sourceTree = "<group>"; };
 		9B798BC41A4BE404002B260C /* Shaders */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Shaders; sourceTree = "<group>"; };
 		9B798BC71A4BE40C002B260C /* WaterEffectSprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = WaterEffectSprite.cpp; path = ../Classes/WaterEffectSprite.cpp; sourceTree = "<group>"; };
 		9B798BC81A4BE40C002B260C /* WaterEffectSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WaterEffectSprite.h; path = ../Classes/WaterEffectSprite.h; sourceTree = "<group>"; };
@@ -415,6 +422,8 @@
 				1AFAF8B416D35DE700DB1158 /* AppDelegate.h */,
 				9B798BCD1A4BECFF002B260C /* SceneController.cpp */,
 				9B798BCE1A4BECFF002B260C /* SceneController.h */,
+				9B682E541A5291F4006CAE6A /* GameScene.cpp */,
+				9B682E551A5291F4006CAE6A /* GameScene.h */,
 			);
 			name = Classes;
 			path = ../classes;
@@ -530,6 +539,7 @@
 		78C7DDAA14EBA5050085D0C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				9B682E5C1A529D41006CAE6A /* iphone6.png */,
 				9B798C0F1A4D6369002B260C /* fonts */,
 				9B798C0A1A4D5A73002B260C /* Images */,
 				9B798BF01A4C013B002B260C /* 3D */,
@@ -732,6 +742,7 @@
 				9B798C101A4D6369002B260C /* fonts in Resources */,
 				5087E78117EB970100C73F5D /* Icon-120.png in Resources */,
 				9B798BFA1A4C013B002B260C /* iphone in Resources */,
+				9B682E5D1A529D41006CAE6A /* iphone6.png in Resources */,
 				9B798BF81A4C013B002B260C /* ipadhd in Resources */,
 				9B798BC51A4BE404002B260C /* Shaders in Resources */,
 				5087E78617EB970100C73F5D /* Icon-76.png in Resources */,
@@ -768,6 +779,7 @@
 				9B798BC61A4BE404002B260C /* Shaders in Resources */,
 				9B798BF71A4C013B002B260C /* ipad in Resources */,
 				9B798BFB1A4C013B002B260C /* iphone in Resources */,
+				9B682E5E1A529D41006CAE6A /* iphone6.png in Resources */,
 				503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */,
 				5087E75417EB910900C73F5D /* CloseSelected.png in Resources */,
 				5087E75517EB910900C73F5D /* HelloWorld.png in Resources */,
@@ -788,6 +800,7 @@
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				9B798BCF1A4BECFF002B260C /* SceneController.cpp in Sources */,
 				9B798BFE1A4C128E002B260C /* DemoFishScene.cpp in Sources */,
+				9B682E561A5291F4006CAE6A /* GameScene.cpp in Sources */,
 				9B798BD71A4BEE21002B260C /* BaseTest.cpp in Sources */,
 				9B798BEE1A4C00A1002B260C /* VertexVector.cpp in Sources */,
 				9B798BDB1A4BEE70002B260C /* VisibleRect.cpp in Sources */,
@@ -808,6 +821,7 @@
 				9B798BFF1A4C128E002B260C /* DemoFishScene.cpp in Sources */,
 				9B798BED1A4C00A1002B260C /* Noise.cpp in Sources */,
 				9B798BE91A4C00A1002B260C /* FishLayer.cpp in Sources */,
+				9B682E571A5291F4006CAE6A /* GameScene.cpp in Sources */,
 				5087E75717EB910900C73F5D /* AppDelegate.cpp in Sources */,
 				9B798BCA1A4BE40C002B260C /* WaterEffectSprite.cpp in Sources */,
 				9B798BEB1A4C00A1002B260C /* LightLineRender.cpp in Sources */,
